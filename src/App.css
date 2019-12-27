@@ -1,32 +1,82 @@
-.App {
-  text-align: center;
+.navbar{
+  background-color: rgba(70,150,229,1);
+  margin: 10px 30px 0 ;
+  height: 400px;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.todo{
+  box-sizing: border-box;
+  padding: 30px 0 0  900px ;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.todo-app{
+  font-size: 40px;
 }
+.add{
+  box-sizing: border-box;
+  padding: 0 30px;
+}
+.enter{
+  box-sizing: border-box;
+  border-radius:8px;
+  height: 50px;
+  width: 100%;
+ 
+  }
+.btn-add{
+  margin: 20px 0 0 1100px;
+  box-sizing: border-box;
+  width: 80px;
+  height:50px ;
+  background: rgba(70,150,229,1);
+  border-radius:8px;
+  color: white;
+  box-sizing: border-box;
+}
+.lists{
+  background-color:rgba(251,251,251,1);
+  margin: 0 30px;
+}
+#list{
+  padding: 0 50px;
+  list-style-type:none;
+
+}
+.item{
+  color:grey;
+  margin-left: 50px; 
+  font-size: 30px;
+}
+.delete-btn{
+  width: 110px;
+  height: 40px;
+  margin: 25px 30px 20px 20px;
+  background-color:rgba(251,251,251,1);
+  font-size: 25px;
+  border-radius:5px;
+  color:grey;} 
+  .complete-btn{
+    width: 110px;
+    height: 40px;
+    margin: 0 0 20px 10px;
+    background-color:rgba(251,251,251,1);
+    font-size: 20px;
+    border-radius:5px;
+    color:grey;
+  
+  }
+  .btnMd{ width: 150px;
+    height: 50px;
+    margin: 0 0 20px 10px;
+    background-color:rgba(251,251,251,1);
+    font-size: 20px;
+    border-radius:5px;
+  color:black;}
+  .btnS{ 
+    width: 80px;
+    height: 35px;
+    background: rgba(70,150,229,1);
+  }
 
 @keyframes App-logo-spin {
   from {
